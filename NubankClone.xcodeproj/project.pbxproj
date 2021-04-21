@@ -13,8 +13,6 @@
 		B2F649202630B73C008A2D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F6491E2630B73C008A2D42 /* Main.storyboard */; };
 		B2F649222630B740008A2D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F649212630B740008A2D42 /* Assets.xcassets */; };
 		B2F649252630B740008A2D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F649232630B740008A2D42 /* LaunchScreen.storyboard */; };
-		B2F649302630B741008A2D42 /* NubankCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6492F2630B741008A2D42 /* NubankCloneTests.swift */; };
-		B2F6493B2630B741008A2D42 /* NubankCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6493A2630B741008A2D42 /* NubankCloneUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		B2F649242630B740008A2D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2F649262630B740008A2D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2F6492B2630B741008A2D42 /* NubankCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2F6492F2630B741008A2D42 /* NubankCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubankCloneTests.swift; sourceTree = "<group>"; };
-		B2F649312630B741008A2D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2F649362630B741008A2D42 /* NubankCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2F6493A2630B741008A2D42 /* NubankCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubankCloneUITests.swift; sourceTree = "<group>"; };
-		B2F6493C2630B741008A2D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				B2F649172630B73C008A2D42 /* NubankClone */,
-				B2F6492E2630B741008A2D42 /* NubankCloneTests */,
-				B2F649392630B741008A2D42 /* NubankCloneUITests */,
 				B2F649162630B73C008A2D42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				B2F649262630B740008A2D42 /* Info.plist */,
 			);
 			path = NubankClone;
-			sourceTree = "<group>";
-		};
-		B2F6492E2630B741008A2D42 /* NubankCloneTests */ = {
-			isa = PBXGroup;
-			children = (
-				B2F6492F2630B741008A2D42 /* NubankCloneTests.swift */,
-				B2F649312630B741008A2D42 /* Info.plist */,
-			);
-			path = NubankCloneTests;
-			sourceTree = "<group>";
-		};
-		B2F649392630B741008A2D42 /* NubankCloneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B2F6493A2630B741008A2D42 /* NubankCloneUITests.swift */,
-				B2F6493C2630B741008A2D42 /* Info.plist */,
-			);
-			path = NubankCloneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F649302630B741008A2D42 /* NubankCloneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F6493B2630B741008A2D42 /* NubankCloneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
