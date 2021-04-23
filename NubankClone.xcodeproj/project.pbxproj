@@ -15,23 +15,6 @@
 		B2F649252630B740008A2D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F649232630B740008A2D42 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B2F6492C2630B741008A2D42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2F6490D2630B73C008A2D42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2F649142630B73C008A2D42;
-			remoteInfo = NubankClone;
-		};
-		B2F649372630B741008A2D42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2F6490D2630B73C008A2D42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2F649142630B73C008A2D42;
-			remoteInfo = NubankClone;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		B2F649152630B73C008A2D42 /* NubankClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NubankClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F649182630B73C008A2D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,26 +24,10 @@
 		B2F649212630B740008A2D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2F649242630B740008A2D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2F649262630B740008A2D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2F6492B2630B741008A2D42 /* NubankCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2F649362630B741008A2D42 /* NubankCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B2F649122630B73C008A2D42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F649282630B741008A2D42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F649332630B741008A2D42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				B2F649152630B73C008A2D42 /* NubankClone.app */,
-				B2F6492B2630B741008A2D42 /* NubankCloneTests.xctest */,
-				B2F649362630B741008A2D42 /* NubankCloneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,42 +87,6 @@
 			productReference = B2F649152630B73C008A2D42 /* NubankClone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2F6492A2630B741008A2D42 /* NubankCloneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2F649422630B741008A2D42 /* Build configuration list for PBXNativeTarget "NubankCloneTests" */;
-			buildPhases = (
-				B2F649272630B741008A2D42 /* Sources */,
-				B2F649282630B741008A2D42 /* Frameworks */,
-				B2F649292630B741008A2D42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2F6492D2630B741008A2D42 /* PBXTargetDependency */,
-			);
-			name = NubankCloneTests;
-			productName = NubankCloneTests;
-			productReference = B2F6492B2630B741008A2D42 /* NubankCloneTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B2F649352630B741008A2D42 /* NubankCloneUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2F649452630B741008A2D42 /* Build configuration list for PBXNativeTarget "NubankCloneUITests" */;
-			buildPhases = (
-				B2F649322630B741008A2D42 /* Sources */,
-				B2F649332630B741008A2D42 /* Frameworks */,
-				B2F649342630B741008A2D42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2F649382630B741008A2D42 /* PBXTargetDependency */,
-			);
-			name = NubankCloneUITests;
-			productName = NubankCloneUITests;
-			productReference = B2F649362630B741008A2D42 /* NubankCloneUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,14 +98,6 @@
 				TargetAttributes = {
 					B2F649142630B73C008A2D42 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					B2F6492A2630B741008A2D42 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = B2F649142630B73C008A2D42;
-					};
-					B2F649352630B741008A2D42 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = B2F649142630B73C008A2D42;
 					};
 				};
 			};
@@ -194,8 +115,6 @@
 			projectRoot = "";
 			targets = (
 				B2F649142630B73C008A2D42 /* NubankClone */,
-				B2F6492A2630B741008A2D42 /* NubankCloneTests */,
-				B2F649352630B741008A2D42 /* NubankCloneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,20 +127,6 @@
 				B2F649252630B740008A2D42 /* LaunchScreen.storyboard in Resources */,
 				B2F649222630B740008A2D42 /* Assets.xcassets in Resources */,
 				B2F649202630B73C008A2D42 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F649292630B741008A2D42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F649342630B741008A2D42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,34 +143,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F649272630B741008A2D42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F649322630B741008A2D42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B2F6492D2630B741008A2D42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2F649142630B73C008A2D42 /* NubankClone */;
-			targetProxy = B2F6492C2630B741008A2D42 /* PBXContainerItemProxy */;
-		};
-		B2F649382630B741008A2D42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2F649142630B73C008A2D42 /* NubankClone */;
-			targetProxy = B2F649372630B741008A2D42 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B2F6491E2630B73C008A2D42 /* Main.storyboard */ = {
@@ -439,86 +317,6 @@
 			};
 			name = Release;
 		};
-		B2F649432630B741008A2D42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NubankCloneTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cesar.school.jemessonlima.NubankCloneTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NubankClone.app/NubankClone";
-			};
-			name = Debug;
-		};
-		B2F649442630B741008A2D42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NubankCloneTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cesar.school.jemessonlima.NubankCloneTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NubankClone.app/NubankClone";
-			};
-			name = Release;
-		};
-		B2F649462630B741008A2D42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NubankCloneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cesar.school.jemessonlima.NubankCloneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NubankClone;
-			};
-			name = Debug;
-		};
-		B2F649472630B741008A2D42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NubankCloneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cesar.school.jemessonlima.NubankCloneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NubankClone;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -536,24 +334,6 @@
 			buildConfigurations = (
 				B2F649402630B741008A2D42 /* Debug */,
 				B2F649412630B741008A2D42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2F649422630B741008A2D42 /* Build configuration list for PBXNativeTarget "NubankCloneTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2F649432630B741008A2D42 /* Debug */,
-				B2F649442630B741008A2D42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2F649452630B741008A2D42 /* Build configuration list for PBXNativeTarget "NubankCloneUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2F649462630B741008A2D42 /* Debug */,
-				B2F649472630B741008A2D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
